@@ -1,0 +1,57 @@
+:root{
+    --amarillo:#EAC926;
+    --azul:#03264C;
+    --celeste :#1259c3;
+    --grisOscuro:#666;
+    --grisClaro: #ebebeb;
+    --verde: #39b54a;
+    --tipografia:'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--tipografia);
+    font-size: 12px;
+   
+}
+.home__header{
+    
+        background-color: var(--amarillo);
+        height: 350px;
+  
+}
+
+a{
+    text-decoration: none;
+   
+}
+.home__header__nav--titulo{
+    font-size: 12px;
+    text-align: center;
+  
+}
+.ultimaVista{
+    font-size: 24px;
+}
+
+.precio{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
+}
+.descripcion{
+    font-size: 16px;
+}
+img{
+    width: 100%;
+}
+
+footer i{  
+    width: 10px;
+    color: var(--celeste);
+ }
