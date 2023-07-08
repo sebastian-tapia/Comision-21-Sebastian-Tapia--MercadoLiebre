@@ -11,7 +11,7 @@
 
 .home_header--div--logo {
     display: flex;
-    margin-bottom: 10px;
+    margin: 15px 0;
 }
 
 .home__header--logo {
@@ -22,7 +22,7 @@
 }
 
 /* SEARCH BAR  */
-.home__header__div--busqueda {}
+
 
 .home__header__div__busqueda--input-icono {
     display: flex;
@@ -51,39 +51,21 @@
 
 }
 
-.home__header--titulo {
+.home__header--titulo{
 
     display: flex;
-    font-size: 12px;
+    
     margin-bottom: 20px;
     justify-content: center;
 
+}
+.home__header--titulo h2{
+    font-size: 12px;
 }
 
 .home__header--nav {
     display: none;
 }
-
-
-/* .home__header--nav ul{
-    list-style: none;
-    margin:15px 0  ;
-    
-} */
-
-/* .home__header--busqueda i {
-    padding-top: 3px;
-    display: block;
-    text-align: center;
-    border: 2px solid var(--grisOscuro);
-    width: 20px;
-    height: 20px;
-    margin-top: 5px;
-    text-align: center;
-    background-color: var(--grisClaro);
-}    */
-
-
 .burger {
     display: flex;
 
@@ -106,7 +88,11 @@
     margin: 0 5%;
 
 }
-
+.home__main__section--ultimaVista{
+    text-align: center;
+    padding: 20px 0 20px 20px;
+    color: var(--grisOscuro);
+}
 .home__main article {
     margin: 10px;
 }
@@ -130,8 +116,37 @@
     height: 40px;
 }
 
+
+
+
+/*! FOOTER HOME */
+
+
+.home__footer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5%;
+    flex-wrap: nowrap;
+    background-color: white;
+    
+}
+.homer__footer--article:first-child{
+    margin-top: 50px;
+   
+}
+
+.homer__footer--article{
+    
+    margin:20px 0;
+   text-align: center;
+   padding: 10px;
+  
+}
+
+
 @media (min-width : 361px) {
-    .home__main article{
+    .home__main article img, .home_main__article_descripcionProductos{
+       
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
@@ -149,24 +164,13 @@
     }
     .descripcion{
         display: block;
+       margin-top: 15px;
     }
     
 }
 
 
 
-/*! FOOTER HOME */
-
-/* .home__footer article{
-    text-align: center;
-    padding: 40px 40px;
-}
-.home__footer i{
-    margin-bottom: 10px;
-    width: 2em;
-    height: 2em;
-    padding-top: 35px    ;
+@media (min-width:769) {
     
-
-   
-} */
+}

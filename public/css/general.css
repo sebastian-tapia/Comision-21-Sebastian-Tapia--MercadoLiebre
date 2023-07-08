@@ -14,48 +14,32 @@
 }
 
 body{
-    /* font-family: var(--tipografia);
-    font-size: 12px; */
-   background-color: var(--grisClaro);
-}
-/* .home__header{
-    
-        background-color: var(--amarillo);
-        height: 350px;
-  
-} */
-/* 
-a{
-    text-decoration: none;
-   
-}
-.home__header__nav--titulo{
+    font-family: var(--tipografia);
     font-size: 12px;
-    text-align: center;
-  
+   background-color: var(--grisClaro);
 }
 
 
 .precio{
     font-size: 18px;
 }
-.descuento{
+.descuento , .descripcion{
     font-size: 16px;
 }
-.descripcion{
-    font-size: 16px;
-}
-*/
-.ultimaVista{
+
+
+.home__main__section--ultimaVista{
     font-size: 24px;
-    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 img{
     width: 100%;
 }
-/*
+
 footer i{  
-    width: 10px;
+    
     color: var(--celeste);
- } */
+    margin-bottom: 20px;
+ }
