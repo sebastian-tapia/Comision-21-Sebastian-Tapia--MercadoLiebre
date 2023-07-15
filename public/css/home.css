@@ -85,11 +85,7 @@
 }
 
 /*! MAIN HOME */
-.home__main {
-    width: 90%;
-    margin: 0 5%;
-
-}
+.home__main {}
 
 .home__main__section--ultimaVista {
     text-align: center;
@@ -102,7 +98,7 @@
 }
 
 .descripcion {
-   color: --grisOscuro;
+    color: --grisOscuro;
 }
 
 
@@ -111,24 +107,28 @@
     position: relative;
     border-top: 1px solid #ebebeb;
     height: 80px;
-    padding-left:10px ;
+    padding-left: 10px;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
+
 }
-.precio{
+
+.precio {
     width: 30%;
 }
-.descuento{
+
+.descuento {
     width: 70%;
     color: #39b54a;
 }
-.precio-descuento{
+
+.precio-descuento {
     display: flex;
 }
-.home_main__article_descripcionProductos--icono{
+
+.home_main__article_descripcionProductos--icono {
     display: block;
     font-size: 16px;
     padding: 5px;
@@ -141,7 +141,7 @@
     position: absolute;
     right: 20px;
     top: -15px;
-    } 
+}
 
 /*! FOOTER HOME */
 
@@ -171,12 +171,9 @@
 
 @media (min-width : 361px) {
 
-    .home__main article img,
-    .home_main__article_descripcionProductos {
 
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
 
+   
     .home__header--nav {
         display: block;
         margin: 20px 0;
@@ -190,6 +187,38 @@
         display: none;
     }
 
+    /* MAIN */
+
+    .home__main {
+        display: flex;
+        align-items: center;
+    }
+
+    .home__main article img,
+    .home_main__article_descripcionProductos {
+
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .articulos {
+
+        max-width: 43%;
+    }
+
+
+
+    .home__articulos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+
+
+
+
+
     .descripcion {
         display: block;
         margin-top: 15px;
@@ -199,4 +228,19 @@
 
 
 
-@media (min-width:769) {}
+@media (min-width: 769px) {
+    .home__articulos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .articulos {
+        max-width: 20%;
+    }
+    .home_main__article_descripcionProductos{
+        height: 110px;
+    }
+    .descuento{
+        padding-left:21px ;
+    }
+}
