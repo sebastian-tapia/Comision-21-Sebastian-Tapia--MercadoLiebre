@@ -9,46 +9,53 @@
 
 }
 
+.home__encabezado_logo-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+
 .home_header--div--logo {
     display: flex;
     margin: 15px 0;
+    width: 50%;
 }
 
 .home__header--logo {
-    width: 150px;
+    width: 100%;
     padding-left: 20px;
 
 
 }
 
 /* SEARCH BAR  */
+.home__header__div--busqueda {
+    width: 50%;
+    display: flex;
 
+}
 
 .home__header__div__busqueda--input-icono {
     display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    align-items: center;
 
-    flex-wrap: wrap;
-    padding-left: 20px;
-
-}
-
-.home__header--input {
-    width: 200px;
-    margin: 5px 0;
 }
 
 .home__header__div__busqueda--input-icono i {
-    width: 22px;
-    height: 19px;
-    border: 1px solid black;
-    margin: 4px 4px;
-    background-color: var(--grisClaro);
+    position: absolute;
+
+    left: 90%;
 }
 
 .home__header--div--titulo {
+    width: 100%;
     display: flex;
     flex-direction: row;
-
+   justify-content: center;
 }
 
 .home__header--titulo {
@@ -171,17 +178,69 @@
 
 @media (min-width : 361px) {
 
+    .home__encabezado_logo-input {
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
 
+    .home_header--div--logo {
+        width: 30%;
+    }
 
-   
+    .home__header__div--busqueda {
+        width: auto;
+    }
+
+    .home__header__div--titulo {
+        display: flex;
+        align-items: center;    
+    }
+.home__header--titulo{
+    margin: 0;
+}
+.home__header--nav a,.home__header--nav2 a {
+    text-decoration: none;
+    
+}
+
+/*     .caja-nav{
+        display: flex;
+    } */
     .home__header--nav {
         display: block;
-        margin: 20px 0;
+       
     }
+.caja-nav{
+    display: flex;
+    justify-content: space-around;
+}
 
-    .home__header--nav a {
-        text-decoration: none;
+.home__header--nav-categoria{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.home__header--nav ul{
+    display: flex;
+}
+.home__header--nav ul li{
+    list-style: none;
+  /*   float: left; */
+    margin: 10px;
+}
+.home__header--nav ul li a{
+    display: block;
+}
+ /*    .home__header--nav-categoria{
+        display: flex;
     }
+    .home__header--nav-login{
+        display: flex;
+    } */
+ /*    .home__header--nav-login li a i{
+        padding-left:5px ;
+    } */
+  
 
     .burger {
         display: none;
@@ -237,10 +296,12 @@
     .articulos {
         max-width: 20%;
     }
-    .home_main__article_descripcionProductos{
+
+    .home_main__article_descripcionProductos {
         height: 110px;
     }
-    .descuento{
-        padding-left:21px ;
+
+    .descuento {
+        padding-left: 21px;
     }
 }
