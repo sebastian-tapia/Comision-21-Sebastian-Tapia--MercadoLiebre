@@ -1,0 +1,82 @@
+body{
+    background-color: white;
+}
+.register__form{
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 20px 5%;
+    padding: 10px;
+  
+}
+.register__form input{
+    border-style: hidden; 
+    border-radius: 8px ;
+    padding: 5px;   
+   
+}
+.register__form--registro1{
+    display: flex;
+    flex-direction: column;
+}
+.register__form--registro1 input{
+    margin-bottom: 40px;
+}
+.register__form--registro1 input:last-child{
+    margin-bottom: 10px;
+}
+
+.register__form--userDate{
+    display: flex;
+    flex-direction: column;
+}
+
+.register__form--userDate input{
+    margin-top: 10px;
+}
+.register__form--userDate input:last-child{
+    margin-top: 40px;
+}
+
+.register__form--userProfile{
+    position: relative;
+    margin: 14px 0;
+}
+.register__form__userProfile--vendedorComprador{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.register__form--intereses input{
+   margin: 10px 0 10px 20px;
+}
+.register__form--intereses label{
+    margin: 10px 0 10px 20px;
+ }
+ 
+ .register__form--userPhoto{
+    margin: 20px 0;
+ }
+
+ .register__form--userPassword :first-child{
+    margin-bottom: 20px;
+ }
+
+ .register__form--buttons{
+    margin: 15px 0;
+
+ }
+ .register__form--buttons input{
+    background-color: white;
+ }
+
+ .register__form--buttons input:hover{
+    background-color: #1a73e8;
+    color: white;
+    transition: background-color ,0.5s , color ,0.5s;
+ }
+
+
